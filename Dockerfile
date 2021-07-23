@@ -7,5 +7,7 @@ ENTRYPOINT ["python3"]
 
 RUN chmod +x /app/start.sh
 
-CMD ["sh", "start.sh"]
+EXPOSE 8000 
+
+CMD ["/bin/sh","run.sh"]
 
