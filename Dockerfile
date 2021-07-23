@@ -5,8 +5,6 @@ WORKDIR /app
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python3"]
 
-EXPOSE 8000
-
 RUN chmod +x /app/start.sh
 
 CMD ["sh", "start.sh"]
