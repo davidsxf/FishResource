@@ -9,5 +9,5 @@ RUN chmod +x /app/start.sh
 
 EXPOSE 8000 
 
-CMD ["/bin/sh","run.sh"]
+CMD ["/bin/sh","start.sh"]
 
