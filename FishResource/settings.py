@@ -80,7 +80,7 @@ DATABASES = {
         #'ENGINE': 'django.db.backends.sqlite3',
         #'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.mysql',   # 数据库引擎
-        'NAME': 'fishResource',  # 数据库名，先前创建的
+        'NAME': 'fish_resource',  # 数据库名，先前创建的
         'USER': 'david',     # 用户名，可以自己创建用户
         'PASSWORD': 'davidsxf',  # 密码
         'HOST': '124.71.11.1',  # mysql服务所在的主机ip
@@ -111,7 +111,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/3.2/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 
 TIME_ZONE = 'UTC'
 
