@@ -31,7 +31,8 @@ ALLOWED_HOSTS = ['*']
 # Application definition
 
 INSTALLED_APPS = [
-    'invest.apps.InvestConfig',
+    #'invest.apps.InvestConfig',
+    'invest',
     'simpleui',
     'django.contrib.admin',
     'django.contrib.auth',
