@@ -44,7 +44,7 @@ class Town(models.Model):
     province = models.CharField(max_length=32, blank=True, null=True)
     city = models.CharField(max_length=32, blank=True, null=True)
     area = models.CharField(max_length=32, blank=True, null=True)
-    town = models.CharField(max_length=32, blank=True, null=True,unique=True)
+    town = models.CharField(max_length=32, blank=True, null=True)
 
     class Meta:
         #managed = False
